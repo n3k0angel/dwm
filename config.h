@@ -8,11 +8,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=12" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=12";
-static const char col_gray1[]       = "#0e0f14";
-static const char col_gray2[]       = "#532740";
-static const char col_gray3[]       = "#c1c8d1";
-static const char col_gray4[]       = "#ffffff";
-static const char col_cyan[]        = "#ad3234";
+static const char col_gray1[]       = "#282828";
+static const char col_gray2[]       = "#282828";
+static const char col_gray3[]       = "#ebddb2";
+static const char col_gray4[]       = "#fbf1c7";
+static const char col_cyan[]        = "#a89984";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
